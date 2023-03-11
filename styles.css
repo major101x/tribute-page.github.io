@@ -1,0 +1,104 @@
+/* CSS HEX 
+--black: #000000ff;
+--marian-blue: #26408bff;
+--light-blue: #a6cfd5ff;
+--platinum: #eaeaeaff;
+--coyote: #82735cff; */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  html {
+    font-size: 10px;
+  }
+  body {
+    font-size: 1.6rem;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+  }
+  main {
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: #eaeaeaff;
+    border-radius: 5px;
+  }
+  h1 {
+    font-size: 3rem; 
+  }
+  p {
+    font-size: 1.6rem; 
+    margin: 5px 5px 10px 5px;
+  }
+  figure#img-div {
+    padding: 10px;
+    background-color: #82735cff;
+    margin: 0 90px;
+    border-radius: 20px;
+  }
+  #image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+  }
+  figcaption {
+    font-size: 1.8rem;
+    margin-top: 10px;
+    color: white;
+  }
+  p#tribute-info {
+    text-align: center;
+    width: 80%;
+    max-width: 100%;
+    margin: 20px auto;
+    font-size: 2rem;
+    border-bottom: 5px dashed black;
+    border-top: 5px dashed black;
+    min-height: 50px;
+    line-height: 1.6;
+  }
+  p#timeline {
+    margin: 30px auto;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  span {
+    font-weight: bold;
+  }
+  ul {
+    margin: 0 auto 50px;
+    width: 80%;
+    line-height: 1.6;
+    text-align: center;
+    list-style: none;
+  }
+  li {
+    margin: 30px 0;
+    border-bottom: 2px solid black;
+    font-size: 1.8rem;
+  }
+  blockquote {
+    background-color: #26408bff;
+    color: white;
+    width: 60%;
+    margin: 0 auto;
+  }
+  blockquote p {
+    margin: 30px 20px 0;
+    line-height: 1.6;
+    padding: 20px 20px 0 20px;
+    font-style: italic;
+  }
+  cite p {
+    margin-top: 0;
+    margin-right: 70px;
+    text-align: right;
+    padding: 20px;
+  }
+  #footer {
+    margin: 20px 0 10px;
+    font-weight: bold;
+  }
